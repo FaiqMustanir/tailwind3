@@ -1,177 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
     <header class="bg-white">
-        <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-          <a class="block text-blue-600" href="index.html">
-            <h1 class="text-2xl font-bold text-blue-900 sm:text-3xl">TokoKita</h1>
-            
-          </a>
-      
-          <div class="flex flex-1 items-center justify-end md:justify-between">
-            <nav aria-label="Global" class="hidden md:block">
-              <ul class="flex items-center gap-6 text-sm">
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="index.html"> Home </a>
-                </li>
-      
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="#"> Sepatu </a>
-                </li>
-      
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="#"> Pakaian </a>
-                </li>
-      
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="#"> Elektronik </a>
-                </li>
-      
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="#"> Perhiasan </a>
-                </li>
-      
-                <li>
-                  <a class="text-gray-500 transition hover:text-blue-600/75" href="cara-belanja.html"> Cara Belanja </a>
-                </li>
-              </ul>
-            </nav>
-      
-            <div class="flex items-center gap-4">
-              <div class="sm:flex sm:gap-4">
+      <div
+        class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
+      >
+        <a class="block text-blue-600" href="index.html">
+          <h1 class="text-2xl font-bold text-blue-900 sm:text-3xl">TokoKita</h1>
+        </a>
+
+        <div class="flex flex-1 items-center justify-end md:justify-between">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm">
+              <li>
                 <a
-                  class="block rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-500"
-                  href="login.html"
+                  class="text-gray-500 transition hover:text-blue-600/75"
+                  href="index.html"
                 >
-                  Login
+                  Home
                 </a>
-      
+              </li>
+
+              <li>
                 <a
-                  class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-blue-600 transition hover:text-blue-500/75 sm:block"
+                  class="text-gray-500 transition hover:text-blue-600/75"
                   href="#"
                 >
-                  Register
+                  Sepatu
                 </a>
-              </div>
-      
-              <button
-                class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
-              >
-                <span class="sr-only">Toggle menu</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="size-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-blue-600/75"
+                  href="#"
                 >
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
+                  Pakaian
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-blue-600/75"
+                  href="#"
+                >
+                  Elektronik
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-blue-600/75"
+                  href="#"
+                >
+                  Perhiasan
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-500 transition hover:text-blue-600/75"
+                  href="cara-belanja.html"
+                >
+                  Cara Belanja
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="block rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-500"
+                href="login.html"
+              >
+                Login
+              </a>
+
+              <a
+                class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-blue-600 transition hover:text-blue-500/75 sm:block"
+                href="register.html"
+              >
+                Register
+              </a>
             </div>
+
+            <button
+              class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
+            >
+              <span class="sr-only">Toggle menu</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
           </div>
         </div>
-      </header>
-      <!-- End Navbar -->
+      </div>
+    </header>
+    <!-- End Navbar -->
 
- <!--Content-->
-<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-lg text-center">
-      <h1 class="text-2xl font-bold sm:text-3xl">Selamat Datang Kembali di TokoKita</h1>
-  
-      <p class="mt-4 text-gray-500">
-        Masuk ke akun Anda untuk menikmati pengalaman berbelanja yang lebih mudah dan cepat. Dapatkan akses eksklusif ke promo spesial dan riwayat pesanan Anda.
-      </p>
-    </div>
-  
-    <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
-      <div>
-        <label for="email" class="sr-only">Email</label>
-  
-        <div class="relative">
-          <input
-            type="email"
-            class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-            placeholder="Enter email"
-          />
-  
-          <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-4 text-gray-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
-  
-      <div>
-        <label for="password" class="sr-only">Password</label>
-  
-        <div class="relative">
-          <input
-            type="password"
-            class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-            placeholder="Enter password"
-          />
-  
-          <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-4 text-gray-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
-  
-      <div class="flex items-center justify-between">
-        <p class="text-sm text-gray-500">
-          Belum punya akun?
-          <a class="underline" href="#">Daftar disini</a>
+    <!--Content-->
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-lg text-center">
+        <h1 class="text-2xl font-bold sm:text-3xl">
+          Selamat Datang Kembali di TokoKita
+        </h1>
+
+        <p class="mt-4 text-gray-500">
+          Masuk ke akun Anda untuk menikmati pengalaman berbelanja yang lebih
+          mudah dan cepat. Dapatkan akses eksklusif ke promo spesial dan riwayat
+          pesanan Anda.
         </p>
-  
-        <button
-          type="submit"
-          class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
-        >
-          Sign in
-        </button>
       </div>
-    </form>
-  </div>
-  <!--End Content-->
-</body>
+
+      <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
+        <div>
+          <label for="email" class="sr-only">Email</label>
+
+          <div class="relative">
+            <input
+              type="email"
+              class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+              placeholder="Enter email"
+            />
+
+            <span
+              class="absolute inset-y-0 end-0 grid place-content-center px-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <label for="password" class="sr-only">Password</label>
+
+          <div class="relative">
+            <input
+              type="password"
+              class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+              placeholder="Enter password"
+            />
+
+            <span
+              class="absolute inset-y-0 end-0 grid place-content-center px-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between">
+          <p class="text-sm text-gray-500">
+            Belum punya akun?
+            <a class="underline" href="register.html">Daftar disini</a>
+          </p>
+
+          <button
+            type="submit"
+            class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+          >
+            Sign in
+          </button>
+        </div>
+      </form>
+    </div>
+    <!--End Content-->
+  </body>
 </html>
